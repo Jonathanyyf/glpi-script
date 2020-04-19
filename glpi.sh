@@ -10,6 +10,7 @@ if [[ $(id -u) != 0 ]]; then
 fi
 
 # Installation of webserver, minimal for GLPI to be functional https://glpi-install.readthedocs.io/en/latest/prerequisites.html
+apt update
 apt install apache2 mariadb-server php7.3 php7.3-curl php7.3-gd php7.3-json php7.3-mbstring php7.3-mysql php7.3-xml -y
 
 # Create user and database glpi, CHANGE PASWWORD FOR GLPI USER
