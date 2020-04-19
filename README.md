@@ -4,5 +4,5 @@ Only tested on Debian 10
 Process followed from https://glpi-install.readthedocs.io/en/latest/install/index.html
 # How to use 
 ```bash
-bash -c "$(https://raw.githubusercontent.com/Jonathanyyf/glpi-script/master/glpi.sh)"
+bash -c "$(curl https://raw.githubusercontent.com/Jonathanyyf/glpi-script/master/glpi.sh)"
 ```
